@@ -1,0 +1,87 @@
+.help-block { 
+    color:red; 
+}
+.scrollable { 
+    max-height: 300px; 
+}
+
+#logout-form { 
+    display: none; 
+}
+
+.logo-dark { 
+    background-image: url('../assets/images/logo/logohead.png') 
+}
+
+.logo-white { 
+    background-image: url('../assets/images/logo/logohead.png') 
+}
+
+.table-overflow .text-gray { 
+    border: none; 
+    font-size: 14px; 
+    border-radius: 50%; 
+    background: none; 
+}
+
+.table-overflow .text-gray:hover { 
+    background-color: white; 
+    color: red !important; 
+}
+
+.header .header-container .nav-left .user-profile .profile-img, .header .header-container .nav-right .user-profile .profile-img { 
+    height: 35px; 
+    cursor: pointer;
+    color: red !important; 
+}
+
+.scrollable {
+    max-height: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.error {
+    color: red;
+}
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+.btn-upload {
+    border: 2px solid gray;
+    color: gray;
+    background-color: white;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.head {
+    margin-left: 150px;
+}
+
+.modal_button {
+    margin-right: 150px;
+}
+
+.form_text {
+    margin-left: 10px;
+}
+
+.form_label {
+    margin-left: 25px;
+}
